@@ -23,7 +23,7 @@ collapsable: true
 
 ## 原理分析
 先看一张Vue官网的服务端渲染示意图：
-![原理图.png](/img/ssr.png)
+![原理图.png](/blog/img/ssr.png)
 
 从图上可以看出，ssr 有两个入口文件，client.js 和 server.js， 都包含了应用代码，webpack 通过两个入口文件分别打包成给服务端用的 server bundle 和给客户端用的 client bundle。
 
