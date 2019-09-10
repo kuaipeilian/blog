@@ -32,7 +32,7 @@ Vue.use 接受一个 plugin 参数，并且维护了一个 _installedPlugins 数
 ## Vue-Router 的入口
 入口在src/index.js，其中定义了 VueRouter 类，也实现了 install 的静态方法：VueRouter.install = install，定义在 src/install.js 中：
 ```
-xport let _Vue
+export let _Vue
 export function install (Vue) {
   if (install.installed && _Vue === Vue) return
   install.installed = true
