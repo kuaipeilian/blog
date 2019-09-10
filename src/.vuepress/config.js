@@ -12,7 +12,7 @@ module.exports = {
     nav: [
       {
         text: '广纳英才',
-        link: '/job/fehc'
+        link: '/job/'
       },
       {
         text: '实战分享',
