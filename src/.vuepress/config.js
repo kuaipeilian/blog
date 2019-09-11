@@ -22,6 +22,7 @@ module.exports = {
           { text: 'vue服务端渲染', link: '/share/ssr'},
           { text: '小程序开发总结', link: '/share/mp'},
           { text: 'go+vue前后端分离实战', link: '/share/iris'},
+          { text: 'uni-app多端开发回顾', link: '/share/uni'},
         ]
       },
       {
