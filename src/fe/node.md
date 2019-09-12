@@ -4,6 +4,9 @@
 ## 什么是 nodejs?
 百度百科是这样定义的：Node.js是一个Javascript运行环境。从定义看， Node.js 不是一个 JavaScript 框架，更不是浏览器端的库，而是一个让 JavaScript 运行在服务端的开发平台。
 
+### node特点
+chrome v8引擎， 事件驱动，非阻塞 I/O， 单线程
+
 ### 如何安装nodejs？
 在不同系统下，安装 nodejs，都有很多种方法。主流的方式有：
 
