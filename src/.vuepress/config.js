@@ -8,6 +8,7 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
   ],
   themeConfig: {
+    sidebarDepth: 3,
     navBar: true,
     nav: [
       {
@@ -21,21 +22,23 @@ module.exports = {
           { text: 'flutter_web体验', link: '/share/flutter_web'},
           { text: 'vue服务端渲染', link: '/share/ssr'},
           { text: '小程序开发总结', link: '/share/mp'},
+          { text: 'go+vue前后端分离实战', link: '/share/iris'},
+          { text: 'uni-app多端开发回顾', link: '/share/uni'},
         ]
       },
       {
         text: '大前端教程',
-        link: '/fe/linux'
+        link: '/fe/vue'
       },
     ],
     sidebar: {
-      '/fe/': genSidebarConfig('大前端教程', ['vue', 'VueRouter', 'vuex',  'linux', 'vscode', 'node', 'code', 'suanfa']),
+      '/fe/': genSidebarConfig('大前端教程', ['vue', 'VueRouter', 'vuex',  'linux', 'vscode', 'node', 'code', 'suanfa', 'ngnix', 'pm2']),
     }
   }
 }
 
 function genSidebarConfig (title, children) {
   return [
-    { title, collapsable: false, children }
+    { title, children }
   ]
 }
