@@ -18,6 +18,7 @@ module.exports = {
         text: '实战分享',
         items: [
           { text: 'flutter混合开发', link: '/share/flutter'},
+          { text: 'flutter_web体验', link: '/share/flutter_web'},
           { text: 'vue服务端渲染', link: '/share/ssr'},
           { text: '小程序开发总结', link: '/share/mp'},
         ]
