@@ -28,11 +28,22 @@ module.exports = {
       },
       {
         text: '大前端教程',
-        link: '/fe/vue'
+        items: [
+          { text: '前端进阶', link: '/fe/vue' },
+          { text: 'JS入门', link: '/js/1' },
+          { text: '常用网址', link: '/url/fe' },
+        ]
+      },
+      {
+        text: '后端教程',
+        items: [
+          { text: '常用网址', link: '/url/be' },
+        ]
       },
     ],
     sidebar: {
       '/fe/': genSidebarConfig('大前端教程', ['vue', 'VueRouter', 'vuex',  'linux', 'vscode', 'node', 'code', 'suanfa', 'ngnix', 'pm2']),
+      '/js/': genSidebarConfig('JS入门', ['1']),
     }
   }
 }
