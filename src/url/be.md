@@ -3,6 +3,12 @@ sidebar: auto
 ---
 # 常用网址
 
+## 必知网址
+- [java官网](https://www.oracle.com/technetwork/java/index.html)
+- [spring官网](https://spring.io/)
+- [spring boot官网](https://spring.io/projects/spring-boot/)
+- [spring cloud官网](https://spring.io/projects/spring-cloud/)
+
 ## Java教程
 - [菜鸟教程之java教程](https://www.runoob.com/java/java-tutorial.html)
 - [慕课网之java入门1](https://www.imooc.com/learn/85)
